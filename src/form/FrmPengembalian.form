@@ -23,24 +23,23 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="1670" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="1507" max="32767" attributes="0"/>
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
                   <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="1049" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="1048" max="32767" attributes="0"/>
           <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" attributes="0">
-                  <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="2" max="32767" attributes="0"/>
               </Group>
           </Group>
       </Group>
@@ -65,107 +64,114 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="781" max="-2" attributes="0"/>
+                                  <Component id="jLabel9" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
-                                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                              </Group>
+                                                              <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                                                  <Component id="BTN_SIMPAN" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="Txt_nama_mobil" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <Component id="BTN_EDIT" min="-2" pref="109" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                                      <Component id="cmb_id_rental" max="32767" attributes="0"/>
+                                                                      <Component id="Txt_nama_penyewa" alignment="0" pref="187" max="32767" attributes="0"/>
+                                                                      <Component id="Txt_id_mobil" alignment="0" pref="187" max="32767" attributes="0"/>
+                                                                      <Component id="Txt_id_penyewa" alignment="0" max="32767" attributes="0"/>
+                                                                      <Component id="cmb_status" max="32767" attributes="0"/>
+                                                                      <Component id="Txt_id_pengembalian" max="32767" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel14" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Component id="Txt_lama" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="Txt_total" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Component id="Txt_status" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                                  <Component id="tanggal_kembali" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="tanggal_rental" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="Txt_harga" alignment="0" pref="180" max="32767" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
-                                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
-                                                          <Component id="BTN_SIMPAN" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                                                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Component id="Txt_nama_mobil" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <Group type="103" groupAlignment="1" attributes="0">
-                                                      <Group type="102" alignment="1" attributes="0">
-                                                          <Component id="BTN_EDIT" min="-2" pref="109" max="-2" attributes="0"/>
-                                                          <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Group type="102" alignment="1" attributes="0">
-                                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                                              <Component id="cmb_id_rental" max="32767" attributes="0"/>
-                                                              <Component id="Txt_nama_penyewa" alignment="0" pref="187" max="32767" attributes="0"/>
-                                                              <Component id="Txt_id_mobil" alignment="0" pref="187" max="32767" attributes="0"/>
-                                                              <Component id="Txt_id_penyewa" alignment="0" max="32767" attributes="0"/>
-                                                              <Component id="cmb_status" max="32767" attributes="0"/>
-                                                              <Component id="Txt_id_pengembalian" max="32767" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel14" alignment="0" min="-2" pref="40" max="-2" attributes="0"/>
-                                                              <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                                                          <Component id="Txt_lama" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="Txt_total" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Component id="Txt_status" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
-                                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                                          <Component id="tanggal_kembali" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="tanggal_rental" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="Txt_harga" alignment="0" pref="180" max="32767" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" min="-2" pref="604" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="781" max="-2" attributes="0"/>
                                           <Component id="BTN_BATAL" min="-2" pref="109" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="244" max="-2" attributes="0"/>
                                           <Component id="BTN_HAPUS" min="-2" pref="109" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="jScrollPane1" alignment="1" min="-2" pref="1213" max="-2" attributes="0"/>
                                   </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jPanel2" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="1213" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -177,8 +183,7 @@
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jLabel9" alignment="1" min="-2" pref="316" max="-2" attributes="0"/>
-                      <Group type="102" alignment="1" attributes="0">
+                      <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -238,24 +243,27 @@
                               <Component id="Txt_id_mobil" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
                               <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="Txt_nama_mobil" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
-                              <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" pref="316" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Txt_nama_mobil" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="BTN_HAPUS" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="BTN_BATAL" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="BTN_EDIT" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="BTN_SIMPAN" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="195" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
               </Group>
               <Component id="jPanel4" alignment="0" max="32767" attributes="0"/>
           </Group>
@@ -423,15 +431,18 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+                  <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="BTN_data_penyewa" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BTN_rental_mobil" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BTN_keluar" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BTN_dashboard" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BTN_data_mobil" alignment="0" max="32767" attributes="0"/>
-                          <Component id="BTN_pengembalian_mobil" alignment="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="BTN_data_penyewa" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BTN_rental_mobil" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BTN_keluar" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BTN_dashboard" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BTN_data_mobil" alignment="0" max="32767" attributes="0"/>
+                              <Component id="BTN_pengembalian_mobil" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="BTN_info_mobil" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="27" max="32767" attributes="0"/>
                   </Group>
@@ -442,17 +453,19 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       <Component id="BTN_dashboard" min="-2" pref="70" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
                       <Component id="BTN_data_mobil" min="-2" pref="71" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                       <Component id="BTN_data_penyewa" min="-2" pref="74" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
                       <Component id="BTN_rental_mobil" min="-2" pref="76" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                       <Component id="BTN_pengembalian_mobil" min="-2" pref="74" max="-2" attributes="0"/>
-                      <EmptySpace pref="88" max="32767" attributes="0"/>
+                      <EmptySpace pref="83" max="32767" attributes="0"/>
+                      <Component id="BTN_info_mobil" min="-2" pref="74" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
                       <Component id="BTN_keluar" min="-2" pref="74" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -541,6 +554,20 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTN_keluarActionPerformed"/>
               </Events>
             </Component>
+            <Component class="javax.swing.JButton" name="BTN_info_mobil">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="99" red="33" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/PNG/png-transparent-japanese-industrial-standards-logo-technical-standard-industry-info-ico-emblem-text-logo.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Informasi Mobil"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BTN_info_mobilActionPerformed"/>
+              </Events>
+            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="jPanel2">
@@ -584,7 +611,7 @@
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/PNG/mobil.png"/>
+              <Image iconType="3" name="/PNG/banyak_mobil-removebg-preview.png"/>
             </Property>
           </Properties>
         </Component>
@@ -657,31 +684,47 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_nama_penyewa">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_nama_mobil">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_status">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_harga">
+          <Properties>
+            <Property name="enabled" type="boolean" value="false"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_lama">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="enabled" type="boolean" value="false"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_total">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="enabled" type="boolean" value="false"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_id_penyewa">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="enabled" type="boolean" value="false"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="Txt_id_mobil">
           <Properties>
             <Property name="toolTipText" type="java.lang.String" value=""/>
+            <Property name="enabled" type="boolean" value="false"/>
           </Properties>
         </Component>
         <Component class="com.toedter.calendar.JDateChooser" name="tanggal_rental">

@@ -103,6 +103,7 @@ private int harga;
         BTN_rental_mobil = new javax.swing.JButton();
         BTN_pengembalian_mobil = new javax.swing.JButton();
         BTN_keluar = new javax.swing.JButton();
+        BTN_info_mobil = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel7 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
@@ -248,6 +249,15 @@ private int harga;
             }
         });
 
+        BTN_info_mobil.setBackground(new java.awt.Color(51, 153, 255));
+        BTN_info_mobil.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PNG/png-transparent-japanese-industrial-standards-logo-technical-standard-industry-info-ico-emblem-text-logo.png"))); // NOI18N
+        BTN_info_mobil.setText("Informasi Mobil");
+        BTN_info_mobil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BTN_info_mobilActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
@@ -261,7 +271,8 @@ private int harga;
                         .addComponent(BTN_keluar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(BTN_dashboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(BTN_data_mobil, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addComponent(BTN_pengembalian_mobil))
+                    .addComponent(BTN_pengembalian_mobil)
+                    .addComponent(BTN_info_mobil, javax.swing.GroupLayout.PREFERRED_SIZE, 191, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(27, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
@@ -269,17 +280,19 @@ private int harga;
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addComponent(BTN_dashboard, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(62, 62, 62)
+                .addGap(38, 38, 38)
                 .addComponent(BTN_data_mobil, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(74, 74, 74)
+                .addGap(47, 47, 47)
                 .addComponent(BTN_data_penyewa, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 80, Short.MAX_VALUE)
+                .addGap(52, 52, 52)
                 .addComponent(BTN_rental_mobil, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(69, 69, 69)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(BTN_pengembalian_mobil, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(58, 58, 58)
+                .addGap(47, 47, 47)
+                .addComponent(BTN_info_mobil, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(49, 49, 49)
                 .addComponent(BTN_keluar, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42))
+                .addGap(25, 25, 25))
         );
 
         jPanel2.setBackground(new java.awt.Color(153, 153, 153));
@@ -304,7 +317,7 @@ private int harga;
                 .addGap(36, 36, 36))
         );
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PNG/user.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/PNG/resolusi2.png"))); // NOI18N
 
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Nama Mobil");
@@ -420,8 +433,8 @@ private int harga;
                                             .addComponent(Txt_status, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 167, Short.MAX_VALUE)
                                             .addComponent(tanggal_rental, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(jLabel9)
-                                        .addGap(48, 48, 48))))
+                                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 283, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(29, 29, 29))))
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addGap(2, 2, 2)
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 995, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -464,7 +477,7 @@ private int harga;
                     .addComponent(jLabel11)
                     .addComponent(Txt_harga_rental, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Txt_status, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(BTN_SIMPAN)
                     .addComponent(BTN_EDIT)
@@ -506,11 +519,12 @@ private int harga;
         harga=Integer.parseInt(Txt_harga_rental.getText());
         status=String.valueOf(Txt_status.getText());
         try {
-            sql="update tb_rental set id_mobil = '"+ idMobil + "', "
-                    +"id_penyewa = '"+ idPenyewa+"' nama_penyewa = '" +namaPenyewa +"', "
-                    +"nama_mobil = '" + namaMobil + "', "
-                    +"tgl_rental = '"+ tanggal +"', harga_rental = '" + harga + "', status = '" + status 
-                    +"where id_rental = '" + idRental + "'";
+            sql = "update tb_rental set id_mobil = '"+ idMobil +"', "
+                    + "id_penyewa = '" + idPenyewa + "', nama_penyewa = '"+ namaPenyewa +"', "
+                    + "nama_mobil = '" + namaMobil +"', "
+                    + "tgl_rental = '" + tanggal +"', harga_rental = '" + harga +"', "
+                    + "status = '"+ status + "' "
+                    + "where id_rental = '" + idRental +"'";
             st=con.createStatement();
             st.execute(sql);
             bersih();
@@ -775,6 +789,15 @@ private int harga;
         this.dispose();
     }//GEN-LAST:event_BTN_pengembalian_mobilActionPerformed
 
+    private void BTN_info_mobilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BTN_info_mobilActionPerformed
+        FrmInfoMobil fim = new FrmInfoMobil ();
+        fim.setVisible(true);
+        fim.pack();
+        fim.setLocationRelativeTo(null);
+        fim.setDefaultCloseOperation(FrmMenyewa.EXIT_ON_CLOSE);
+        this.dispose();
+    }//GEN-LAST:event_BTN_info_mobilActionPerformed
+
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -791,6 +814,7 @@ private int harga;
     private javax.swing.JButton BTN_dashboard;
     private javax.swing.JButton BTN_data_mobil;
     private javax.swing.JButton BTN_data_penyewa;
+    private javax.swing.JButton BTN_info_mobil;
     private javax.swing.JButton BTN_keluar;
     private javax.swing.JButton BTN_pengembalian_mobil;
     private javax.swing.JButton BTN_rental_mobil;
